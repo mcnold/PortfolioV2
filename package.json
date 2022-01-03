@@ -1,8 +1,8 @@
 {
   "private": true,
   "name": "personalPortfolio",
-  "homepage": "http://mcnold.github.io/PortfolioV2",
   "version": "1.0.0",
+  "homepage": "http://mcnold.github.io/PortfolioV2",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
@@ -41,6 +41,10 @@
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
     "prettier": "2.2.1"
+  },
+  "engines": {
+    "node": "14.17.1",
+    "npm": "6.14.13"
   },
   "browserslist": {
     "production": [
