@@ -2,6 +2,7 @@ import React from "react";
 import "./CertificationCard.css";
 import { Fade } from "react-reveal";
 import { style } from "glamor";
+import logo from "../../assests/images/GA.png";
 
 function CertificationCard(props) {
   const certificate = props.certificate;
@@ -28,11 +29,7 @@ function CertificationCard(props) {
               className="cert-header"
               style={{ backgroundColor: certificate.color_code }}
             >
-              <img
-                className="logo_img"
-                src={require(`../../assests/images/${certificate.logo_path}`)}
-                alt={certificate.alt_name}
-              />
+              <img className="logo_img" src={logo} alt={certificate.alt_name} />
             </div>
             {/* <div className="content-details fadeIn-top">
 									<h3 className="content-title" style={{ color: theme.body }}>

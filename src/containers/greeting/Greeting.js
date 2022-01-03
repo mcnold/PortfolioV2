@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
+import logo from "../../assests/images/CheleG_AdobeCreativeCloudExpress (1).gif";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -50,7 +51,7 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            <FeelingProud theme={theme} />
+            <img src={logo} alt="Intro Video about Chele"></img>
           </div>
         </div>
       </div>

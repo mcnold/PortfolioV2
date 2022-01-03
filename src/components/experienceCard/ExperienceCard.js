@@ -1,5 +1,6 @@
 import React from "react";
 import "./ExperienceCard.css";
+import logo from "../../assests/images/ChelesWork.png";
 
 function ExperienceCard(props) {
   const experience = props.experience;
@@ -14,9 +15,10 @@ function ExperienceCard(props) {
     >
       <div className="experience-card-logo-div">
         <img
-          className="experience-card-logo"
-          src={require(`../../assests/images/${experience["logo_path"]}`)}
-          alt=""
+          src={logo}
+          width="100px"
+          height="150px"
+          alt="Chele balloon with confetti and clouds"
         />
       </div>
       <div className="experience-card-body-div">

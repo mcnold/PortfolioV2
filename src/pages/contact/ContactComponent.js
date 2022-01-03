@@ -30,7 +30,7 @@ function Contact(props) {
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                src={require(`../../assests/images/CGRound.jpeg`)}
                 alt=""
               />
             </div>
@@ -69,7 +69,11 @@ function Contact(props) {
                 {blogSection["subtitle"]}
               </p>
               <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link}>
+                <a
+                  {...styles}
+                  className="general-btn"
+                  href="https://www.twitter.com/cheletarot"
+                >
                   My Twitter Profile
                 </a>
               </div>

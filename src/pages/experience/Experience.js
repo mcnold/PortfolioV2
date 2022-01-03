@@ -5,7 +5,7 @@ import ExperienceAccordion from "../../containers/experienceAccordion/Experience
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
-import ExperienceImg from "./ExperienceImg";
+import logo from "../../assests/images/CheleBalloon_AdobeCreativeCloudExpress.gif";
 
 function Experience(props) {
   const theme = props.theme;
@@ -17,7 +17,10 @@ function Experience(props) {
         <Fade bottom duration={2000} distance="40px">
           <div className="experience-heading-div">
             <div className="experience-heading-img-div">
-              <ExperienceImg theme={theme} />
+              <img
+                src={logo}
+                alt="Chele G Logo with Balloons and Confetti"
+              ></img>
             </div>
             <div className="experience-heading-text-div">
               <h1

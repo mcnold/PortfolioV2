@@ -2,10 +2,16 @@ import React from "react";
 import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
 import { style } from "glamor";
+import logo from "../../assests/images/university-at-buffalo-school-of-management_416x416.jpeg";
+
+const getImage = (path) => {
+  return require(`${path}`);
+};
 
 function DegreeCard(props) {
   const degree = props.degree;
   const theme = props.theme;
+  const logo_path = `../../assests/images/${degree.logo_path}`;
 
   const style_img = style({
     width: "220px",
@@ -75,7 +81,7 @@ function DegreeCard(props) {
             style={{
               maxWidth: "100%",
               maxHeight: "100%",
-              transform: "scale(-50%, -50%)",
+              transform: "scale(50%, 50%)",
             }}
             src={require(`../../assests/images/${degree.logo_path}`)}
             alt={degree.alt_name}
