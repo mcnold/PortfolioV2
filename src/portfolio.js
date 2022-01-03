@@ -496,7 +496,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects leverage a vast variety of latest technology. I incorporate Node.js, Python, and React, and more. Below are some of my projects.",
+    "My projects leverage a vast variety of latest technology. I incorporate Node.js, Python, Flask, React, and more. Below are some of my projects.",
   avatar_image_path: "projects_image.svg",
 };
 
