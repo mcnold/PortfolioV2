@@ -135,20 +135,20 @@ const skills = {
         //     color: "#29B0EE",
         //   },
         // },
-        {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
-          style: {
-            color: "#029FCE",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
+        // {
+        //   skillName: "Visual Basic",
+        //   fontAwesomeClassname: "simple-icons:dot-net",
+        //   style: {
+        //     color: "#029FCE",
+        //   },
+        // },
+        // {
+        //   skillName: "MySQL",
+        //   fontAwesomeClassname: "simple-icons:mysql",
+        //   style: {
+        //     color: "#4479A1",
+        //   },
+        // },
         // {
         //   skillName: "jQuery",
         //   fontAwesomeClassname: "simple-icons:jquery",
@@ -206,7 +206,7 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        // "⚡ Experience with Continuous Integration",
       ],
       softwareSkills: [
         {
