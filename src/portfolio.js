@@ -13,9 +13,9 @@ const greeting = {
   title2: "Chele Godleske",
   logo_name: "CheleG",
   nickname: "Chele",
-  full_name: "Michele Godleske",
+  full_name: "Chele Godleske",
   subTitle:
-    "Software Engineer and Architect | MBA, PMP, CEBA | NFT Mixed Media Artist",
+    "Software Engineer & Architect | MBA, PMP, CEBA | NFT Art & Photography",
   resumeLink:
     "https://docs.google.com/document/d/11Lzva9q3XRuvrjG6cEkktBDvfxbg9ip-/edit?usp=sharing&ouid=112885329903343928803&rtpof=true&sd=true",
   mail: "mailto:michele.godleske@gmail.com",
