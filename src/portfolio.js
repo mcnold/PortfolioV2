@@ -15,7 +15,7 @@ const greeting = {
   nickname: "Chele",
   full_name: "Michele Godleske",
   subTitle:
-    "Software Engineer and Architect | MBA, PMP | Automotive Technology",
+    "Software Engineer and Architect | MBA, PMP | NFT Mixed Media Artist",
   resumeLink:
     "https://docs.google.com/document/d/11Lzva9q3XRuvrjG6cEkktBDvfxbg9ip-/edit?usp=sharing&ouid=112885329903343928803&rtpof=true&sd=true",
   mail: "mailto:michele.godleske@gmail.com",
