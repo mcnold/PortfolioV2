@@ -314,7 +314,7 @@ const certifications = {
     {
       title: "Project Management Professional (PMP)",
       subtitle: "Project Management Institute",
-      logo_path: "pmp-badge.png",
+      logo_path: "/PortfolioV2/src/assests/images/pmp-badge.png",
       certificate_link:
         "https://drive.google.com/file/d/1dWhfTndKQTFU15KPjgoEOwnhfxsvT3JS/view?usp=sharing",
       alt_name: "Project Management Institute",
