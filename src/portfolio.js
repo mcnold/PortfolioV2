@@ -304,7 +304,7 @@ const certifications = {
     {
       title: "Software Engineering Certification",
       subtitle: "General Assembly",
-      logo_path: "GA.png",
+      logo_path: "",
       certificate_link:
         "https://generalassemb.ly/?topic=&mkt_account_id=1056949875&mkt_campaign_id=10449503932&mkt_ad_group_id=103265630546&mkt_device_type=c&mkt_keyword=general%20assembly&mkt_matchtype=e&mkt_placement=&mkt_ad_id=524305824858&mkt_network=g&mkt_target_id=kwd-300765785657&mkt_feed_item_id=&utm_source=google&utm_medium=paid-search-bra&utm_campaign=TS:TX:BRA:TPA:BR:GeneralAssembly&utm_content=campus-lead-lander&utm_term=general%20assembly&gclid=Cj0KCQiAt8WOBhDbARIsANQLp94YezvVpZnMNeXH-SpdUc0iTzVCYgX1EFpwC7SXtv8IJ9WZ9n8jyXQaAoflEALw_wcB",
       alt_name: "General Assembly",
@@ -314,7 +314,7 @@ const certifications = {
     {
       title: "Project Management Professional (PMP)",
       subtitle: "Project Management Institute",
-      logo_path: "pmp-badge.png",
+      logo_path: "",
       certificate_link:
         "https://drive.google.com/file/d/1dWhfTndKQTFU15KPjgoEOwnhfxsvT3JS/view?usp=sharing",
       alt_name: "Project Management Institute",
