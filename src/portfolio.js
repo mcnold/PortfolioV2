@@ -15,9 +15,9 @@ const greeting = {
   nickname: "Chele",
   full_name: "Michele Godleske",
   subTitle:
-    "Software Engineer | MBA | Customer Success | Automotive Technology",
+    "Software Engineer and Architect | MBA, PMP | Automotive Technology",
   resumeLink:
-    "https://docs.google.com/document/d/1dFzenxlbbF53mnNSLuq7I_5jy1QkMfy_zPrtuPDHX_c/edit?usp=sharing",
+    "https://docs.google.com/document/d/11Lzva9q3XRuvrjG6cEkktBDvfxbg9ip-/edit?usp=sharing&ouid=112885329903343928803&rtpof=true&sd=true",
   mail: "mailto:michele.godleske@gmail.com",
 };
 
@@ -251,13 +251,13 @@ const skills = {
             color: "#47A248",
           },
         },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
         // {
         //   skillName: "GitHub Actions",
         //   fontAwesomeClassname: "simple-icons:githubactions",
@@ -309,17 +309,17 @@ const certifications = {
         "https://generalassemb.ly/?topic=&mkt_account_id=1056949875&mkt_campaign_id=10449503932&mkt_ad_group_id=103265630546&mkt_device_type=c&mkt_keyword=general%20assembly&mkt_matchtype=e&mkt_placement=&mkt_ad_id=524305824858&mkt_network=g&mkt_target_id=kwd-300765785657&mkt_feed_item_id=&utm_source=google&utm_medium=paid-search-bra&utm_campaign=TS:TX:BRA:TPA:BR:GeneralAssembly&utm_content=campus-lead-lander&utm_term=general%20assembly&gclid=Cj0KCQiAt8WOBhDbARIsANQLp94YezvVpZnMNeXH-SpdUc0iTzVCYgX1EFpwC7SXtv8IJ9WZ9n8jyXQaAoflEALw_wcB",
       alt_name: "General Assembly",
       // color_code: "#2AAFED",
-      color_code: "#47A048",
+      color_code: "#4b1514",
     },
-    //   {
-    //     title: "Hackathon",
-    //     subtitle: "Hack The Mountains",
-    //     logo_path: "hackathon1.svg",
-    //     certificate_link:
-    //       "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-    //     alt_name: "hackathon",
-    //     color_code: "#E2405F",
-    //   },
+    {
+      title: "Project Management Professional (PMP)",
+      subtitle: "Project Management Institute",
+      logo_path: "pmp-badge.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1dWhfTndKQTFU15KPjgoEOwnhfxsvT3JS/view?usp=sharing",
+      alt_name: "Project Management Institute",
+      color_code: "#06bfe0",
+    },
     //   {
     //     title: "A300: Atlas Security",
     //     subtitle: "MongoDB University",
@@ -390,6 +390,18 @@ const experience = {
     {
       title: "Work Experience",
       experiences: [
+        {
+          title: "Customer Success Architect",
+          company: "TIBCO",
+          company_url: "https://www.tibco.com",
+          logo_path: "../src/assests/images/TIBCO Software.png",
+          duration: "April 2022 - Present",
+          location: "Remote",
+          description: `Technical architect for Customer Success team supporting enterprise business integration services.
+          `,
+          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          color: "#0071C5",
+        },
         {
           title: "Full Stack Developer Fellowship",
           company: "General Assembly",
