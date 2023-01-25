@@ -518,7 +518,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "./assests/images/CGRound.jpeg",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "You can contact me at the places mentioned below. I will connect with you as soon as possible. ",
   },
   blogSection: {
     title: "Blogs",
