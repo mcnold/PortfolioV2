@@ -13,7 +13,7 @@ const greeting = {
   title2: "Chele Godleske",
   logo_name: "CheleG",
   nickname: "Chele",
-  full_name: "Chele Godleske",
+  full_name: "Michele Godleske",
   subTitle:
     "Software Engineer & Architect | MBA, PMP, CEBA | NFT Art & Photography",
   resumeLink:
